@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\final-project",
+    "\\final-project\\packages",
+    "\\final-project\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\build",
+    "\\final-project\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\content",
+    "\\final-project\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\lib",
+    "\\final-project\\packages\\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\\tools",
+    "\\final-project\\WebApplication1",
+    "\\final-project\\WebApplication1\\css"
+  ],
+  "SelectedNode": "\\final-project\\WebApplication1\\calculate.aspx",
+  "PreviewInSolutionExplorer": false
+}

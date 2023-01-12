@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+h1,h2,p{
+    margin-block-start: .5rem;
+    margin-block-end: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body p,body span{
+    font-size: 17px;
+    line-height: 30px;
+    color: #34343c;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.navbar img{
+    max-width:110px;
+}
+.navbar .links span{
+    padding:0 10px;
+}
+.btn {
+    background: #763da5;
+    padding: 10px 20px !important;
+    border-radius: 35px !important;
+    color:white;
+    cursor: pointer;
+}
+.btn a{
+    color:#fff !important;
+}
+.navbar .links a {
+    text-decoration: none;
+    color: #34343c;
+}
+/*navbar*/
+/*header*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-text,.header .header-img{
+    width:50%;
+}
+.header .header-img img{
+    max-width:100%;
+}
+.header .header-text h2{
+    font-size: 50px;
+    line-height: 60px;
+    color: #763da5;
+}
+.header .header-text p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 1.5rem;
+}
+svg.separator {
+    background-color: #f5f5f5;
+}
+svg.separator path {
+    fill: #fff;
+    stroke: #fff;
+}
+.who-we-are,.calculater {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f5f5f5;
+    margin-top: -0.75rem;
+}
+.title {
+    color: #763da5;
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+}
+/*features*/
+.features-section{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.features {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.features .box {
+    max-width: 200px;
+    min-height: 150px;
+    flex: 1;
+    box-shadow: 9px 9px 9px -1px #eee;
+    padding: 0 0.25rem;
+    margin: 0.5rem;
+    border-top: 1px solid #763da5;
+    border-radius: 3px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.features .box img{
+    max-width: 75px;
+}
+.features .box p{
+    font-weight: bold;
+}
+.calculater p{
+    margin-bottom: 1rem;
+}
+.calculater .btn a{
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    padding: 1rem;
+}
+.who-we-are,.features-section,.calculater{
+    padding: 2.5rem 0;
+}
+/*forms*/
+.form-card{
+    max-width: 470px;
+    margin: 1rem auto;
+    box-shadow: 0 3px 11px 4px #eee;
+    border-radius: 5px;
+    padding: 1rem;
+    border-top: 1px solid #763da5;
+    box-sizing: content-box;
+}
+.form-card .inputd{
+    display: flex;
+    justify-content: space-between;
+    margin: .75rem 0;
+}
+.inputd div {
+    width: 40%;
+}
+.form-card .inputd p {
+    display: inline-block;
+    font-size: 16px;
+    color: #524e4e;
+    width: 60%;
+}
+.form-card input,.form-card select {
+border: 1px solid #b3b3b3 !important;
+    border-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    transition: all ease .4s;
+    height:100%;
+}
+.form-card.centered-card input,.form-card.centered-card select{
+    height: 38px;
+}
+
+.form-card.centered-card{
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-card.centered-card *{
+    margin:.5rem 0;
+}
+.form-card input:focus-visible {
+    outline: none;
+    border: 1px solid #444 !important;
+}
+.form-card .btn{
+    margin: 0 auto;
+}
+.form-card .price-btn{
+    text-align: center;
+}
+.form-card .price-btn p{
+    font-weight: bold;
+}
+/*dashboard*/
+.flex-container{
+    display: flex;
+}
+.flex-container .nav{
+    border-right: 1px solid #eee
+}
+.flex-container .nav div{
+    padding: .5rem;
+    border-bottom: 1px solid #eee;
+}
+.flex-container .nav img{
+    width:25px;
+}
+.flex-container .nav div a{
+    vertical-align: bottom;
+    text-decoration: none;
+    margin-left: .75rem;
+}
+.flex-container .nav ul{
+    padding-inline-start: 0 !important;
+    list-style: none;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.flex-container .nav ul li{
+    padding: .75rem;
+    border-bottom: 1px solid #eee;
+}
+.flex-container .nav ul li.selected{
+    background-color: #f5f5f5;
+}
+.flex-container .nav ul a{
+    text-decoration: none;
+    color: #524e4e;
+}
+.flex-container .table{
+    margin: 1rem;
+}
+.flex-container .table tr{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(30px, 1fr));
+    padding: .75rem 0;
+}
+.flex-container .table tr:nth-of-type(1) {
+    border-bottom:1px solid #f5f5f5;
+}
+.flex-container .table tr:nth-of-type(2n+1) {
+    background-color: #f5f5f5;
+}
+.flex-container .table th,.flex-container .table td{
+    border: none;
+    padding: .25rem;
+    text-align: center;
+}
+.flex-container .table table{
+    min-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 3px 11px 4px #eee;
+    box-sizing: content-box;
+    border:none;
+    border-radius: 5px;
+}
+.form-card.back{
+    min-width: 500px;
+}
+.form-card.back a.add-instead,.form-card.back a.manage-instead{
+    text-decoration: none;
+    color: #666666;
+    display: block;
+    margin: .25rem 0;
+}
+.form-card.back .price-btn{
+    padding-top:2rem;
+}
+.form-card.back .price-btn .btn#Delete {
+    background: #fff;
+    color: #763da5;
+}
+.form-card.back .messages span{
+    color: #763da5;
+    font-size: 19px;
+}
+.admin-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.admin-box img{
+    width: 120px;
+}
+.admin-box p,.admin-box span{
+    font-size: 20px;
+    color: #763da5;
+}
+.form-card.update .content *{
+    margin: .5rem 0;
+}
+.form-card.update .content #returnit{
+    background: #fff;
+    color: #763da5;
+}
+.form-card.update input,.form-card.update select{
+        height: 35px;
+        margin: 0.5rem;
+}
+.form-card.update a.add-instead,.form-card.update a.manage-instead{
+    text-decoration: none;
+    color: #666666;
+    display: block;
+    margin: .25rem 0;
+}
+.form-card div#getinf * {
+    display: block;
+    text-align: left;
+}
